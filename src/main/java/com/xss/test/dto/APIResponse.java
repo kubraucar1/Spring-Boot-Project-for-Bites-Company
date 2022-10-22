@@ -15,17 +15,6 @@ import java.util.List;
 public class APIResponse<T>{
     String providerName;
     int recordCount;
-    T response;
 
 
- public APIResponse(int recordCount,T response){
-     this.recordCount=recordCount;
-     this.response=response;
- }
-
-    public APIResponse(String providerName, int recordCount,T response) {
-     this.providerName=providerName;
-        this.recordCount=recordCount;
-        this.response=response;
-    }
 }
